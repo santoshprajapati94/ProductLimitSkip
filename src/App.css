@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+ gap: 20px;
+  flex-direction: column;
+}
+.products-rap{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.product-container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 14px;
+  gap: 10px;
+}
+.img-product{
+  width: 200px;
+  height: 200px;
+}
+button{
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+
